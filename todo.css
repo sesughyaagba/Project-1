@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main{
+    background-color:darkslategray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--darkest);
+    margin: auto;
+    /* border-radius: 7px; */
+} 
+    .container{
+        background-color: lightgrey;
+        border-radius: 10px;
+        width: 1025px;
+        height: 720px;
+        padding: 10px;
+}
+h1{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-align: center;
+    color: red;
+   
+}
+h3{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    text-align: center;
+    color: crimson;
+}
+.input-group{
+    display: flex;
+    margin-bottom: 15p;
+}
+#text-input{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 200px;
+    letter-spacing: 1px; 
+    border-radius: 5px;
+    color:red;
+}
+#add-button{
+    padding: 5px;
+    border: none;
+    background-color: darkgrey;
+    border-radius: 5px;
+    margin:2px; 
+}
+.todo-container{
+    overflow-y: scroll;
+}
+.todo-item-container{
+    display: flex;
+    margin-bottom: 5px; 
+}
+#todo-text{
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.color-change{
+    color: crimson;
+}
+#edit-button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: green;
+    margin: 2px;
+    text-transform: capitalize;
+
+}
+#delete-button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: darkred;
+    margin: 2px;
+    text-transform: capitalize;
+}
+#clear-button{
+    padding: 5px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    margin: 5px; 
+}
+.container{
+    background-color: lightgrey;
+    border-radius: 10px;
+    width: 1025px;
+    height: 720px;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 360px){
+    .container{
+        background-color: lightgrey;
+        border-radius: 10px;
+        width: 420px;
+        height: 740px;
+        padding: 10px;
+    }
+}
